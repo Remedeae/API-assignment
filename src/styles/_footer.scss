@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-items: center;
+    align-items: end;
+    max-width: $max-width;
+    width: 100%;
+    min-height: 400px;
+
+    & > * {
+        position: absolute;
+    }
+}
+.waveB {
+    z-index: -1;
+}
+.waveT {
+    z-index: -2;
+}
+.branch {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    z-index: 0;
+    width: 100vw;
+}
